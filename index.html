@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>18TÃO DO JOTA</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <meta name="theme-color" content="#0b0f1a" />
+    <meta name="description" content="Convite Interativo - 18Tão do Jota" />
+  </head>
+
+  <body>
+    <div class="background-glow"></div>
+    <div class="particles" id="particles"></div>
+
+    <header class="hero">
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <span class="badge"> 🚗 EVENTO EXCLUSIVO </span>
+
+        <h1>
+          18TÃO
+          <span>DO JOTA</span>
+        </h1>
+
+        <p class="subtitle">
+          Depois de 18 anos acelerando rumo à maioridade, chegou a hora de
+          comemorar.
+        </p>
+
+        <div class="countdown-container">
+          <h2>FALTAM</h2>
+
+          <div class="countdown" id="countdown">
+            <div class="time-card">
+              <span id="days">00</span>
+              <small>Dias</small>
+            </div>
+
+            <div class="time-card">
+              <span id="hours">00</span>
+              <small>Horas</small>
+            </div>
+
+            <div class="time-card">
+              <span id="minutes">00</span>
+              <small>Minutos</small>
+            </div>
+
+            <div class="time-card">
+              <span id="seconds">00</span>
+              <small>Segundos</small>
+            </div>
+          </div>
+        </div>
+
+        <a href="#info" class="scroll-button"> Ver Informações </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="info">
+        <div class="section-title">
+          <h2>INFORMAÇÕES GERAIS</h2>
+          <div class="line"></div>
+        </div>
+
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card-icon">📅</div>
+
+            <h3>Data</h3>
+
+            <p>Quinta-feira</p>
+
+            <strong> 02 de Julho de 2026 </strong>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">⏰</div>
+
+            <h3>Horário</h3>
+
+            <p>Início às</p>
+
+            <strong> 19:30 </strong>
+
+            <p>Encerramento às</p>
+
+            <strong> 22:00 </strong>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">🍽️</div>
+
+            <h3>Rodízio</h3>
+
+            <p>Valor por convidado</p>
+
+            <strong> R$ 69,90 </strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="section location-section">
+        <div class="section-title">
+          <h2>LOCAL DO EVENTO</h2>
+          <div class="line"></div>
+        </div>
+
+        <div class="location-card reveal">
+          <h3>Seven Grill Itaipu</h3>
+
+          <p>Av. Estr. Francisco da Cruz Nunes, 1904</p>
+
+          <p>Itaipu - Niterói</p>
+
+          <div class="button-group">
+            <button id="mapsBtn" class="action-btn">
+              📍 Abrir Localização
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-title">
+          <h2>CONFIRMAÇÃO DE PRESENÇA</h2>
+          <div class="line"></div>
+        </div>
+
+        <div class="confirmation-card reveal">
+          <div class="deadline">
+            <span> Confirme até </span>
+
+            <strong> 20/06/2026 </strong>
+          </div>
+
+          <div class="contact">
+            <h3>João Luiz</h3>
+
+            <p>WhatsApp para confirmação</p>
+          </div>
+
+          <button id="whatsappBtn" class="action-btn">
+            Confirmar Presença
+          </button>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-title">
+          <h2>ADICIONE AO CALENDÁRIO</h2>
+          <div class="line"></div>
+        </div>
+
+        <div class="calendar-card reveal">
+          <p>Salve o evento e não perca a data.</p>
+
+          <button id="calendarBtn" class="action-btn">
+            📅 Adicionar ao Calendário
+          </button>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-title">
+          <h2>IMPORTANTE</h2>
+          <div class="line"></div>
+        </div>
+
+        <div class="important-card reveal">
+          <ul>
+            <li>Evento exclusivo para convidados.</li>
+
+            <li>Não será permitida a entrada de acompanhantes.</li>
+
+            <li>Local com estacionamento disponível.</li>
+
+            <li>Ambiente acessível.</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <h2>ESPERO VOCÊ LÁ</h2>
+
+      <p>Vamos comemorar juntos essa conquista.</p>
+
+      <span> — João Luiz "Jota" Faria </span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
