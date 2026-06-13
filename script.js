@@ -63,7 +63,7 @@ if (whatsappBtn) {
     whatsappBtn.addEventListener("click", () => {
 
         const message =
-            "Olá João Luiz! Confirmo minha presença no seu aniversário de 18 anos.";
+            "Confirmo minha presença no seu aniversário de 18 anos.";
 
         const url =
             `https://wa.me/5521999746448?text=${encodeURIComponent(message)}`;
